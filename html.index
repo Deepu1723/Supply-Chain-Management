@@ -1,0 +1,166 @@
+<!-- Filename - index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="top">Online</h1>
+        <h1 id="top1">FoodShop</h1>
+    </header>
+    <hr>
+    <nav id="navbar">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240711123257/jpeg-optimizer_2151336570.jpg">
+        <ul id="navcontent">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="contact.html">ContactUs</a></li>
+        </ul>
+    </nav>
+    <div id="container1">
+        <div id="row1">
+            Welcome to Online FoodShop
+        </div>
+        <button class="btn">ORDER NOW</button>
+        <div id="container3">
+            <div id="row2">
+                <button class="btn">Prices</button>
+            </div>
+            <div id="row3">
+                <button class="btn">Specials</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h1 id="top3">Featured Products</h1>
+    <div id="container4">
+        <div id="row4">
+            <button class="btn">ORDER NOW</button>
+        </div>
+        <div id="row5">
+            <button class="btn">ORDER NOW</button>
+        </div>
+        <div id="row6">
+            <button class="btn">ORDER NOW</button>
+        </div>
+    </div>
+    <footer>Copyright © 2020-2021 OnlineFoodShop.
+        All Rights are reserved</footer>
+</body>
+
+Sure! Below is a simple example of a webpage designed using HTML and CSS to explain the process of supply chain management. This example includes a header, a main content section, and a footer. The main content section is divided into steps to illustrate the supply chain management process.
+
+HTML (index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Management Process</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Supply Chain Management Process</h1>
+    </header>
+    <main>
+        <section class="step">
+            <h2>Step 1: Planning</h2>
+            <p>In this phase, companies strategize how to manage resources to meet customer demand for their product or service.</p>
+        </section>
+        <section class="step">
+            <h2>Step 2: Sourcing</h2>
+            <p>Companies select suppliers to provide the goods and services needed to create their product.</p>
+        </section>
+        <section class="step">
+            <h2>Step 3: Manufacturing</h2>
+            <p>This phase involves the production of goods and services. It includes activities such as assembling, testing, and packaging.</p>
+        </section>
+        <section class="step">
+            <h2>Step 4: Delivery</h2>
+            <p>Also known as logistics, this phase involves coordinating the receipt of orders from customers and delivering the products to them.</p>
+        </section>
+        <section class="step">
+            <h2>Step 5: Returns</h2>
+            <p>This phase involves the return of defective or unwanted products from customers and managing the return process.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Supply Chain Management Inc.</p>
+    </footer>
+</body>
+</html>
+
+CSS (styles.css)
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.step {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+Instructions to Upload to GitHub
+Create a new repository on GitHub.
+Clone the repository to your local machine.
+Add the HTML and CSS files to the repository.
+Commit and push the changes to GitHub.
+# Clone the repository
+git clone https://github.com/your-username/your-repository.git
+
+# Navigate to the repository directory
+cd your-repository
+
+# Add the HTML and CSS files
+git add index.html styles.css
+
+# Commit the changes
+git commit -m "Add supply chain management webpage"
+
+# Push the changes to GitHub
+git push origin main
+
+
+This will create a simple, informative webpage about the supply chain management process and upload it to your GitHub repository.
