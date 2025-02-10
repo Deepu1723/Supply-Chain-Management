@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Management Process</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Supply Chain Management Process</h1>
+        <p>Understanding the stages of a successful supply chain</p>
+    </header>
+
+    <section class="process">
+        <div class="stage">
+            <h2>1. Procurement</h2>
+            <p>The process of acquiring raw materials and goods from suppliers to create the final product.</p>
+        </div>
+        <div class="stage">
+            <h2>2. Manufacturing</h2>
+            <p>In this phase, raw materials are converted into finished goods through various production processes.</p>
+        </div>
+        <div class="stage">
+            <h2>3. Distribution</h2>
+            <p>The finished products are distributed to various warehouses or directly to customers through logistics networks.</p>
+        </div>
+        <div class="stage">
+            <h2>4. Retail</h2>
+            <p>Retailers sell the products to the end consumers. This can be through physical stores or online platforms.</p>
+        </div>
+        <div class="stage">
+            <h2>5. Customer</h2>
+            <p>The end consumer receives the product and provides feedback, which can lead to future improvements in the process.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Your Name</p>
+    </footer>
+
+</body>
+</html>
