@@ -1,39 +1,70 @@
-body {
-    font-family: Arial, sans-serif;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
 header {
-    background-color: #4CAF50;
+    background-color: #0073e6;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 30px 0;
 }
 
-main {
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Process Section */
+.process {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
-.step {
-    background-color: white;
-    margin: 20px 0;
+.stage {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.step h2 {
-    color: #4CAF50;
+.stage h2 {
+    font-size: 1.8em;
+    color: #0073e6;
+    margin-bottom: 10px;
 }
 
+.stage p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
 footer {
+    text-align: center;
+    padding: 20px 0;
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
